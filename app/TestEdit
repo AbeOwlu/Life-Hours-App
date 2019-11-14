@@ -1,0 +1,51 @@
+        ViewInteraction appCompatEditText21 = onView(
+                allOf(withId(R.id.userYears),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(android.R.id.content),
+                                        0),
+                                3),
+                        isDisplayed()));
+        appCompatEditText21.perform(replaceText("2"), closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText20 = onView(
+                allOf(withId(R.id.userYears), withText("2"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(android.R.id.content),
+                                        0),
+                                3),
+                        isDisplayed()));
+        appCompatEditText20.perform(click());
+
+        ViewInteraction appCompatEditText19 = onView(
+                allOf(withId(R.id.userYears), withText("2"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(android.R.id.content),
+                                        0),
+                                3),
+                        isDisplayed()));
+        appCompatEditText19.perform(replaceText("69"));
+
+        ViewInteraction appCompatEditText18 = onView(
+                allOf(withId(R.id.userYears), withText("69"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(android.R.id.content),
+                                        0),
+                                3),
+                        isDisplayed()));
+        appCompatEditText18.perform(closeSoftKeyboard());
+
+        ViewInteraction appCompatEditText17 = onView(
+                allOf(withId(R.id.userYears), withText("69"),
+                        childAtPosition(
+                                childAtPosition(
+                                        withId(android.R.id.content),
+                                        0),
+                                3),
+                        isDisplayed()));
+        appCompatEditText17.perform(click());
+        appCompatEditText17.perform(replaceText("ABC"));
+        appCompatEditText17.perform(closeSoftKeyboard());

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LifeWire Hours</string>
+    <string name="calculate">Calculate</string>
+    <string name="be_positive_be_generous">Be Positive! Be Generous!</string>
+    <string name="life_hours">Hours You Have!</string>
+    <string name="years_input">"# Years You\'d Like (\u003C 300.0)?"</string>
+    <string name="user_age"># Age?</string>
+    <string name="Message_1">"You've got hours! Remember to live a little. %1$s is still young, but make the seconds count!"</string>
+    <string name="Message_2">"Start filling the hours with meaning. Remember what's important! Reach out to those loved ones, %1$s should know what's important and what's not."</string>
+    <string name="Message_3">"Oh Dear! Best get on with it then, no time to waste. %1$s is no hours left on the clock at all"</string>
+    <string name="display_hours">Hours</string>
+    <string name="toast_text">Age Save!</string>
+</resources>
+
